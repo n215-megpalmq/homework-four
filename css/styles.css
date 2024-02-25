@@ -1,0 +1,599 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: gillL;
+  src: url(../fonts/Gill-Sans-Font-Family/GillSansLight.otf);
+}
+@font-face {
+  font-family: prox;
+  src: url(../fonts/MarkSimonson\\ProximaNova\c ondensedLightTheFontsMaster.com.otf);
+}
+nav {
+  height: 65px;
+  width: 980px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 99;
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+  justify-content: space-evenly;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 47px;
+  letter-spacing: 2px;
+}
+nav .logo {
+  width: 92px;
+  height: 42px;
+  border: 2px solid white;
+}
+nav .logo h4 {
+  margin-top: 23px;
+  font-family: gillL;
+  letter-spacing: 3px;
+  color: white;
+}
+nav .links {
+  min-width: 300px;
+  height: 42px;
+  align-items: center;
+  margin-top: 47px;
+  font-size: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+nav .links .pipe {
+  color: #79ADDC;
+}
+
+hr {
+  color: #fff;
+  width: 980px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+@media all and (max-width: 920px) {
+  nav {
+    width: 100%;
+  }
+}
+@font-face {
+  font-family: prox;
+  src: url(../fonts/MarkSimonson\\ProximaNova\c ondensedLightTheFontsMaster.com.otf);
+}
+@font-face {
+  font-family: gillI;
+  src: url(../fonts/Gill-Sans-Font-Family/GillSansItalic.otf);
+}
+@font-face {
+  font-family: gilli;
+  src: url(../fonts/Gill-Sans-Font-Family/GillSansLight.otf);
+}
+@font-face {
+  font-family: sole;
+  src: url(../fonts/SoleSans-ThinExtraCondensed.ttf);
+}
+.home {
+  margin-top: -65;
+}
+.home .hero {
+  height: 500px;
+  background-color: blueviolet;
+  background-image: url(../images/Group49.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home .hero .flex {
+  display: flex;
+  text-align: center;
+}
+.home .hero .flex .title {
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+.home .hero .flex .title h1 {
+  font-family: sole;
+  color: white;
+  font-weight: 100;
+  margin-top: 69.5px;
+  font-size: 60px;
+}
+.home .hero .flex .title .lorem {
+  width: 416px;
+  height: 46px;
+  font-family: gillI;
+  font-size: 20px;
+  color: white;
+  margin-top: 29px;
+}
+.home .hero .RM {
+  width: 121px;
+  height: 40px;
+  background-color: #79ADDC;
+  border: none;
+  align-items: center;
+  display: inline-block;
+  box-shadow: none;
+  color: white;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 50px;
+}
+.home .specials {
+  width: 818px;
+  margin: -40px auto 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.home .specials .box1 {
+  height: 304px;
+  width: 236px;
+  background-image: url(../images/Group50.png);
+}
+.home .specials .box1 .flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.home .specials .box1 .flex .is {
+  font-size: 60px;
+  font-family: sole;
+  justify-content: center;
+  align-items: center;
+  margin-top: 37px;
+  color: white;
+}
+.home .specials .box1 .flex .is .from {
+  color: white;
+  height: 40px;
+  width: 152px;
+  font-size: 30px;
+}
+.home .specials .box1 .flex .is .LM {
+  width: 121px;
+  height: 40px;
+  background-color: #79ADDC;
+  border: none;
+  align-items: center;
+  display: inline-block;
+  box-shadow: none;
+  color: white;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 50px;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+}
+.home .specials .box2 {
+  height: 304px;
+  width: 236px;
+  background-image: url(../images/Group36.png);
+}
+.home .specials .box2 .flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.home .specials .box2 .flex .is {
+  font-size: 60px;
+  font-family: sole;
+  justify-content: center;
+  align-items: center;
+  margin-top: 37px;
+  color: white;
+}
+.home .specials .box2 .flex .is .from {
+  color: white;
+  height: 40px;
+  width: 152px;
+  font-size: 30px;
+}
+.home .specials .box2 .flex .is .LM {
+  width: 121px;
+  height: 40px;
+  background-color: #79ADDC;
+  border: none;
+  align-items: center;
+  display: inline-block;
+  box-shadow: none;
+  color: white;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 50px;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+}
+.home .specials .box3 {
+  height: 304px;
+  width: 236px;
+  background-image: url(../images/Group37.png);
+}
+.home .specials .box3 .flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.home .specials .box3 .flex .is {
+  font-size: 58px;
+  font-family: sole;
+  justify-content: center;
+  align-items: center;
+  margin-top: 37px;
+  color: white;
+}
+.home .specials .box3 .flex .is .from {
+  color: white;
+  height: 40px;
+  width: 152px;
+  font-size: 30px;
+}
+.home .specials .box3 .flex .is .LM {
+  width: 121px;
+  height: 40px;
+  background-color: #79ADDC;
+  border: none;
+  align-items: center;
+  display: inline-block;
+  box-shadow: none;
+  color: white;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 50px;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+}
+.home .booking {
+  width: 818px;
+  margin: 0 auto;
+  margin-top: 40px;
+  font-size: 60px;
+  font-family: sole;
+  font-weight: 4px;
+}
+.home .form {
+  width: 818px;
+  margin: 0 auto;
+  min-height: 500px;
+  margin-top: 30px;
+}
+.home .form .flex-line {
+  display: flex;
+}
+.home .form .flex-line .cal {
+  position: relative;
+  width: 334px;
+  display: flex;
+}
+.home .form .flex-line input {
+  height: 58px;
+  width: 200px;
+  border: 2px solid;
+  border-color: #79ADDC;
+  padding-left: 20px;
+}
+.home .form .flex-line .cal-2 {
+  width: 453px;
+  margin-left: 21px;
+  display: flex;
+  position: relative;
+}
+.home .form .flex-line input {
+  height: 58px;
+  width: 453px;
+  border: 2px solid;
+  border-color: #79ADDC;
+  padding-left: 20px;
+  font-family: gilli;
+  font-size: 18px;
+}
+.home .form .flex-line .cal-3 {
+  position: relative;
+  width: 334px;
+  display: flex;
+  margin-top: 20px;
+}
+.home .form .flex-line .cal-4 {
+  position: relative;
+  width: 453px;
+  display: flex;
+  margin-top: 20px;
+  margin-left: 21px;
+}
+.home .form .second {
+  display: flex;
+}
+.home .form .second .check-in {
+  font-size: 18px;
+  position: relative;
+  margin-top: 39px;
+  width: 70px;
+  font-family: gilli;
+}
+.home .form .second .date-box {
+  position: relative;
+  width: 698px;
+  margin-top: 20px;
+  margin-left: 41px;
+}
+.home .form .second .date-box .cal-box3 {
+  width: 30px;
+  height: 30px;
+  font-size: 24px;
+  position: absolute;
+  right: 20px;
+  bottom: 14px;
+  background-image: url(../images/AdobeStock_554606861.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home .form .second .date-box input {
+  height: 58px;
+  width: 698px;
+  border: 2px solid;
+  border-color: #79ADDC;
+  padding-left: 20px;
+  font-family: gilli;
+  font-size: 18px;
+}
+.home .form .third {
+  display: flex;
+}
+.home .form .third .check-out {
+  font-size: 18px;
+  position: relative;
+  margin-top: 39px;
+  width: 70px;
+  font-family: gilli;
+}
+.home .form .third .date-box2 {
+  position: relative;
+  width: 698px;
+  margin: 20px;
+  margin-left: 45px;
+}
+.home .form .third .date-box2 .cal-box3 {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 10px;
+  bottom: 14px;
+  background-image: url(../images/AdobeStock_554606861.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home .form .third .date-box2 input {
+  height: 58px;
+  width: 698px;
+  border: 2px solid;
+  border-color: #79ADDC;
+  padding-left: 20px;
+  font-family: gilli;
+  font-size: 18px;
+  margin-left: 10px;
+}
+.home .form .ACR {
+  display: flex;
+}
+.home .form .ACR .adult {
+  font-family: gilli;
+  font-size: 18px;
+  position: relative;
+  margin-top: 20px;
+  margin-right: 81px;
+}
+.home .form .ACR select {
+  height: 58px;
+  width: 103px;
+  border: 2px solid;
+  border-color: #79ADDC;
+  padding: 20px;
+}
+.home .form .ACR .child {
+  font-family: gilli;
+  font-size: 18px;
+  position: relative;
+  margin-top: 20px;
+  margin-left: 81px;
+  margin-right: 50px;
+}
+.home .form .ACR .rooms {
+  font-family: gilli;
+  font-size: 18px;
+  position: relative;
+  margin-top: 20px;
+  margin-left: 81px;
+  margin-right: 69px;
+}
+.home .form .ACR select {
+  height: 58px;
+  width: 103px;
+  border: 2px solid;
+  border-color: #79ADDC;
+  padding: 20px;
+}
+.home .form #message-box {
+  width: 818px;
+  height: 192px;
+  border: 2px solid;
+  border-color: #79ADDC;
+  margin-top: 20px;
+}
+.home .form textarea {
+  font-family: prox;
+  font-size: 18px;
+}
+.home .form button {
+  background-color: #79ADDC;
+  width: 813px;
+  height: 60.59px;
+  border-radius: 30px;
+  color: white;
+  border: none;
+  font-family: gilli;
+  margin-top: 37px;
+  margin-bottom: 100px;
+}
+
+footer .end {
+  background-color: #79ADDC;
+  height: 100px;
+  display: flex;
+}
+footer .end .logo {
+  width: 92px;
+  height: 42px;
+  border: 2px solid white;
+  margin-left: 250px;
+  position: relative;
+  top: 29px;
+}
+footer .end .logo h4 {
+  margin-top: 23px;
+  font-family: gillL;
+  letter-spacing: 3px;
+  color: white;
+}
+footer .end .copywright {
+  color: white;
+  font-family: gilli;
+  font-size: 12px;
+  position: relative;
+  left: 287px;
+  margin-top: 43px;
+}
+footer .end .icons {
+  font-size: 20px;
+  position: relative;
+  right: 0;
+  display: flex;
+  margin-right: 20px;
+  height: 30px;
+}
+footer .end .icons .fb {
+  background-image: url(../images/facebook-icon-png-774.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30px;
+  width: 30px;
+  margin-left: 600px;
+  border: none;
+  margin-top: 43px;
+}
+footer .end .icons .In {
+  background-image: url(../images/insta.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40px;
+  width: 40px;
+  margin-top: 37px;
+  border: none;
+}
+footer .end .icons .Tw {
+  background-image: url(../images/twitter.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20px;
+  width: 20px;
+  margin-top: 47px;
+  border: none;
+  margin-left: 5px;
+}
+
+@media all and (max-width: 920px) {
+  .home {
+    width: 100%;
+  }
+  .home hr {
+    width: 100%;
+  }
+  .home .specials {
+    flex-direction: column;
+  }
+  .home .specials .box {
+    margin-bottom: 30px;
+  }
+  .home .form {
+    width: 100%;
+    margin: 12px;
+  }
+  .home .form .flex-line {
+    flex-direction: column;
+  }
+  .home .form .flex-line .cal, .home .form .flex-line .cal-3 {
+    width: 100%;
+    margin-left: 20px;
+  }
+  .home .form .flex-line .cal input, .home .form .flex-line .cal-3 input {
+    width: 800PX;
+  }
+  .home .form .flex-line .cal-2, .home .form .flex-line .cal-4 {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .home .form .flex-line .cal-2 input, .home .form .flex-line .cal-4 input {
+    width: 800px;
+  }
+  .home .form textarea {
+    width: 100%;
+    margin: 15px;
+  }
+  .home .form textarea #message-box {
+    width: 100%;
+  }
+  .home .form button {
+    width: 100%;
+  }
+}
+footer {
+  width: 100%;
+}
+@media all and (max-width: 920px) {
+  footer .end .logo {
+    margin-left: 20px;
+  }
+  footer .end .copywright {
+    margin: 0 auto;
+    position: relative;
+    margin-top: 50px;
+  }
+  footer .end .icons .fb {
+    margin-left: 500px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
