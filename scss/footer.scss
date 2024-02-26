@@ -1,3 +1,142 @@
 footer{
+    .end{
+        background-color: #79ADDC;
+        height: 100px;
+        display: flex;
+
+    .logo{
+        width: 92px;
+        height:42px;
+        border:2px solid white;
+        margin-left: 250px;
+        position: relative;
+        top: 29px;
+            h4{
+            margin-top: 23px;
+            font-family: gillL;
+            letter-spacing: 3px;
+            color: white;
+            }
+        }
+            .copywright{
+            color: white;
+            font-family: gilli;
+            font-size: 12px;
+            position: absolute;
+            left:670px;
+            margin-top: 43px;
+            width: 250px;
+            }
+    .icons {
+        font-size: 20px;
+        position:relative;
+        right: 0;
+        display: flex;
+        left: 250px;
+        height: 30px;
     
+
+            .fb{
+                background-image: url(../images/facebook-icon-png-774.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 30px;
+                width: 30px;
+                margin-left: 600px;
+                border: none;
+                margin-top: 43px;
+            }
+            .In{
+                background-image: url(../images/insta.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 40px;
+                width: 40px;
+                margin-top: 37px;
+                border: none;
+                
+            }
+            .Tw{
+                background-image: url(../images/twitter.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 20px;
+                width: 20px;
+                margin-top: 47px;
+                border: none;
+                margin-left: 5px;
+                
+            }
+        }
+    }
+}
+
+
+
+
+@media all and (max-width: 920px) {
+    footer {
+        max-width: 100%;
+        .end {
+            .logo {
+                margin-left: 20px; 
+            }
+
+            .copywright {
+                position:absolute;
+                left: 270px;
+                
+            }
+
+            .icons {
+                .fb {
+                    margin-left: 500px; 
+                }
+                .Tw{
+                     
+                }
+
+                .In{
+                     
+                }
+                
+            }
+        }
+    }
+}
+
+@media all and (max-width: 720px) {
+    footer {
+    max-width: 100%;
+        .end {
+            .logo {
+                margin-left: 50px; 
+            }
+
+            .copywright {
+                margin-right:50px;
+                width:200px;
+                margin-bottom: 10px;
+                
+            }
+
+            .icons {
+                display: flex;
+                .fb {
+                margin-left: 400px; 
+                }
+                .Tw{
+                     
+                }
+
+                .In{
+                     
+                }
+                
+            }
+        }
+    }
 }

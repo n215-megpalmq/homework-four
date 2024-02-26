@@ -442,83 +442,6 @@
     }
 }
     }
-    footer{
-        .end{
-            background-color: #79ADDC;
-            height: 100px;
-            display: flex;
-
-        .logo{
-            width: 92px;
-            height:42px;
-            border:2px solid white;
-            margin-left: 250px;
-            position: relative;
-            top: 29px;
-                h4{
-                margin-top: 23px;
-                font-family: gillL;
-                letter-spacing: 3px;
-                color: white;
-                }
-            }
-                .copywright{
-                color: white;
-                font-family: gilli;
-                font-size: 12px;
-                position: relative;
-                left: 287px;
-                margin-top: 43px;
-                }
-        .icons {
-            font-size: 20px;
-            position:relative;
-            right: 0;
-            display: flex;
-            margin-right: 20px;
-            height: 30px;
-        
-
-                .fb{
-                    background-image: url(../images/facebook-icon-png-774.png);
-                    background-position: center;
-                    background-repeat: no-repeat;
-                    background-size: cover;
-                    height: 30px;
-                    width: 30px;
-                    margin-left: 600px;
-                    border: none;
-                    margin-top: 43px;
-                }
-                .In{
-                    background-image: url(../images/insta.png);
-                    background-position: center;
-                    background-repeat: no-repeat;
-                    background-size: cover;
-                    height: 40px;
-                    width: 40px;
-                    margin-top: 37px;
-                    border: none;
-                    
-                }
-                .Tw{
-                    background-image: url(../images/twitter.png);
-                    background-position: center;
-                    background-repeat: no-repeat;
-                    background-size: cover;
-                    height: 20px;
-                    width: 20px;
-                    margin-top: 47px;
-                    border: none;
-                    margin-left: 5px;
-                    
-                }
-            }
-        }
-    }
-
-
-
 
 @media all and (max-width:920px){
     .home{
@@ -547,8 +470,9 @@
         
         }
         .booking{
+            margin: 25px;
         }
-    
+  
         .form {
             width: 100%;
             margin: 12px;
@@ -583,6 +507,7 @@
             }
             }
         .third{
+            width: 95%;
             .check-out {
         }
             .date-box2{ 
@@ -610,47 +535,146 @@
         }
         
         textarea{
-            width: 100%;
             margin: 15px;
+            max-width: 95%;
+            
             #message-box{
-            width: 100%;
+            width: 120px;
             }
         }
        
         button{
-            width: 100%;
+            width: 95%;
         }
     }
         }
 
 }
-footer {
-    width: 100%;
-    .end {
-        @media all and (max-width: 920px) {
-            .logo {
-                margin-left: 20px; 
+
+@media all and (max-width:720px){
+    .home{
+        width: 100%;
+        .hero {  
+            .flex{
+            .title {
+                }
+                .lorem {
+                }
             }
+            
+        }
+        hr{
+            width: 100%;
+        }
+        .RM {
+        }
 
-            .copywright {
-                margin:0 auto;
-                position: relative;
-                margin-top: 50px 
-            }
-
-            .icons {
-                .fb {
-                    margin-left: 500px; 
-                }
-                .Tw{
-                     
-                }
-
-                .In{
-                     
-                }
+    
+        .specials {
+            flex-direction: column;
+            position: relative;
+            right:120px;
+            .box{
+                margin-bottom: 30px;
                 
             }
+        
+        }
+        .booking{
+        }
+    
+        .form {
+            width: 100%;
+            margin: 12px;
+            .flex-line{
+                flex-direction: column;
+            .cal, .cal-3 {
+                width: 100%;
+                margin-left: 20px;
+                    input{
+                        width: 500PX;
+                    }
+                }
+            .cal-2, .cal-4{
+                width: 100%;
+                margin-top: 20px;
+                    
+                    input{
+                        width: 500px
+                    }
+                 }
+            
+        }
+        .move{
+            width: 100%;
+        .second{
+            
+        .check-in {
+            width: 100%;
+            
+        }
+            .date-box{    
+                width: 100%; 
+                margin-right: 130px;          
+                .cal-box3 {
+                }
+            }
+            input{
+                width: 400px;
+            }
+            }
+        .third{
+           
+            .check-out {
+                width: 100%;
+        }
+            .date-box2{ 
+                margin-right: 130px;
+                width: 100%;
+                .cal-box3 {   
+                }
+            }
+            .input2{
+                width: 400px;
+            }
+            
         }
     }
+        .ACR{
+            flex-direction: column;
+            align-items: center;
+            .adult{
+                margin-left: 70px;
+            } 
+            select {    
+            }
+            .child{ 
+                margin-left: 40px;  
+            } 
+            
+            .rooms{  
+                margin: 0 auto;
+                margin-top: 20px;
+            } 
+            select {   
+            }
+            
+        }
+        
+        textarea{
+            margin: 15px;
+            max-width: 75%;
+            margin-left: 80px;
+            #message-box{
+            
+            }
+        }
+       
+        button{
+            width: 75%;
+            margin-left: 80px;
+        }
+    }
+        }
+
 }
