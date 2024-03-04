@@ -601,17 +601,19 @@ hr {
   }
 }
 footer .end {
+  width: 100%;
   background-color: #79ADDC;
   height: 100px;
+  left: 10px;
   display: flex;
 }
 footer .end .logo {
-  width: 92px;
+  width: 90px;
   height: 42px;
   border: 2px solid white;
-  margin-left: 400px;
   position: relative;
   top: 29px;
+  margin-left: 250px;
 }
 footer .end .logo h4 {
   margin-top: 23px;
@@ -624,18 +626,16 @@ footer .end .copywright {
   font-family: gilli;
   font-size: 12px;
   position: absolute;
-  left: 850px;
-  margin-top: 43px;
+  left: 700px;
   width: 250px;
+  margin-top: 43px;
 }
 footer .end .icons {
   font-size: 20px;
-  position: relative;
-  right: 0;
+  position: absolute;
   display: flex;
-  left: 150px;
   height: 30px;
-  justify-content: space-evenly;
+  margin-left: 400px;
 }
 footer .end .icons .fb {
   height: 22.46px;
